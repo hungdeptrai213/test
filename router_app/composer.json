@@ -1,0 +1,18 @@
+{
+    "name": "hienu/router_app",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Hienu\\RouterApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hungdeptrai213",
+            "email": "ilovebesun1996@gmail.com"
+        }
+    ],
+    "require": {
+        "pecee/simple-router": "^5.4"
+    }
+}
