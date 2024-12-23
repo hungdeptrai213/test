@@ -1,0 +1,22 @@
+{
+    "name": "hienu/restfull_api",
+    "type": "project",
+   "autoload": {
+        "psr-4": {
+            "App\\": "./src/",
+            "System\\": "./"
+        },
+        "files": ["src/helpers/functions.php","src/routes/api.php", "src/helpers/response.php"]
+    },
+    "authors": [
+        {
+            "name": "hungdeptrai213",
+            "email": "ilovebesun1996@gmail.com"
+        }
+    ],
+    "require": {
+        "pecee/simple-router": "^5.4",
+        "requtize/query-builder": "dev-master",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
